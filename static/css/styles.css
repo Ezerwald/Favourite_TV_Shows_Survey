@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
     margin: 0;
 }
 
@@ -76,15 +76,16 @@ label {
 }
 
 .form-section{
+    height: 130vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
     width: 85%;
 }
 
 .background-image-section {
     width: 15%;
-    background-color: #fd792d;
+    height: 130vh;
+    background-image: url("../../assets/sky.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
